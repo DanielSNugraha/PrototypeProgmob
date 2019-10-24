@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/btnDataDiri"
         app:layout_constraintVertical_bias="0.051" />
 
     <TextView
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnDaftarKelas" />
 
     <TextView
         android:id="@+id/textView45"
@@ -43,14 +43,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/btnLihatKelas"
         app:layout_constraintVertical_bias="0.833" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnDataDiri"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:onClick="btnDataDiri"
+        android:onClick="DataDiriMhs"
         android:src="@drawable/datadirimhs"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,10 +61,10 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/btnDaftarKelas"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:onClick="btnDaftarKrs"
+        android:onClick="DaftarKrs"
         android:src="@drawable/daftarkrs"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,10 +75,10 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/btnLihatKelas"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:onClick="btnLihatKelas"
+        android:onClick="LihatKelas"
         android:src="@drawable/lihatkelas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

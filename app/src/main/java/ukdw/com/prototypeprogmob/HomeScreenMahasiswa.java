@@ -14,7 +14,7 @@ public class HomeScreenMahasiswa extends AppCompatActivity {
         setContentView(R.layout.activity_home_screen_mahasiswa);
     }
 
-    public void datadirimhs(View view){
+    public void DataDiriMhs(View view){
         Intent i = new Intent(HomeScreenMahasiswa.this,LihatDataMhsActivity.class);
         startActivity(i);
         }
