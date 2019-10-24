@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import ukdw.com.prototypeprogmob.Model.Mahasiswa;
 import ukdw.com.prototypeprogmob.R;
 import ukdw.com.prototypeprogmob.RecylerViewMhsActivity;
-
+/*
 public class MahasiswaAdapter extends
         RecylerViewMhsActivity.Adapter<MahasiswaAdapter.ViewHolder>{
     private ArrayList<Mahasiswa> mahasiswaArrayList;
@@ -53,3 +53,4 @@ public class MahasiswaAdapter extends
         }
     }
 }
+*/
