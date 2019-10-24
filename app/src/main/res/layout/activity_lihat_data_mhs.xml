@@ -6,58 +6,70 @@
     android:layout_height="match_parent"
     tools:context=".LihatDataMhsActivity">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="195dp"
-        android:layout_height="37dp"
-        android:text="NIM - NAMA MHS"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="253dp" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="195dp"
-        android:layout_height="37dp"
-        android:text="NIM - NAMA MHS"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="76dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="121dp"
-        android:layout_height="37dp"
-        android:text="email, alamat"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="305dp" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="121dp"
-        android:layout_height="37dp"
-        android:text="email, alamat"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="127dp" />
-
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="117dp"
         android:layout_height="134dp"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087"
         tools:srcCompat="@drawable/mhs2" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="114dp"
-        android:layout_height="135dp"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="218dp"
-        tools:srcCompat="@drawable/mhs1" />
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNim"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <TextView
+        android:id="@+id/txtNim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nim"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Email"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNama"
+        app:layout_constraintVertical_bias="0.001" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
