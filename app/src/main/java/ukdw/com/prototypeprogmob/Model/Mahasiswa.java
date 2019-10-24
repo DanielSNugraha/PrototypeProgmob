@@ -1,12 +1,12 @@
 package ukdw.com.prototypeprogmob.Model;
 
-public class DataMahasiswa {
+public class Mahasiswa {
     private String nim;
     private String nama;
     private String email;
     private String alamat;
 
-    public DataMahasiswa(String email, String alamat, String nim, String nama) {
+    public Mahasiswa(String email, String alamat, String nim, String nama) {
         this.nama = nama;
         this.nim = nim;
         this.email = email;

@@ -9,15 +9,15 @@ import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
 
-import ukdw.com.prototypeprogmob.Model.DataMahasiswa;
+import ukdw.com.prototypeprogmob.Model.Mahasiswa;
 import ukdw.com.prototypeprogmob.R;
 import ukdw.com.prototypeprogmob.RecylerViewMhsActivity;
 
-public class DataMahasiswaAdapter extends
-        RecylerViewMhsActivity.Adapter<DataMahasiswaAdapter.ViewHolder>{
-    private ArrayList<DataMahasiswa> mahasiswaArrayList;
+public class MahasiswaAdapter extends
+        RecylerViewMhsActivity.Adapter<MahasiswaAdapter.ViewHolder>{
+    private ArrayList<Mahasiswa> mahasiswaArrayList;
 
-    public DataMahasiswaAdapter(ArrayList<DataMahasiswa> mahasiswaArrayList) {
+    public MahasiswaAdapter(ArrayList<Mahasiswa> mahasiswaArrayList) {
         this.mahasiswaArrayList = mahasiswaArrayList;
     }
 
@@ -32,13 +32,13 @@ public class DataMahasiswaAdapter extends
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.txtNama.setText(mahasiswaArrayList.get(position).getNama());
-        holder.txtNim.setText(mahasiswaArrayList.get(position).getNim();
-        holder.txtEmail.setText(mahasiswaArrayList.get(position).getNim();
-        holder.txtAlamat.setText(mahasiswaArrayList.get(position).getAlamat();
+        holder.txtNim.setText(mahasiswaArrayList.get(position).getNim());
+        holder.txtEmail.setText(mahasiswaArrayList.get(position).getNim());
+        holder.txtAlamat.setText(mahasiswaArrayList.get(position).getAlamat());
     }
 
     @Override
-    public int getItemCount() { //untuk menghitung jumlah data yang ada//
+    public int getItemCount() {
         return (mahasiswaArrayList != null) ?mahasiswaArrayList.size() : 0; }
     public class ViewHolder extends RecylerViewMhsActivity.ViewHolder{
         private TextView txtNama, txtNim, txtEmail, txtAlamat;
