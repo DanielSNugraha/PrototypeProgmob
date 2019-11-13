@@ -16,17 +16,18 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnMulai = (Button)findViewById(R.id.btnStart);
         btnMulai.setOnClickListener(btnStart);
-
-
     }
 
     private View.OnClickListener btnStart = new View.OnClickListener()
     { @Override
+
     public void onClick(View view)
     { Intent intent = new Intent
             (MainActivity.this,LoginActivity.class);
-        startActivity(intent); } };
-    }
+        startActivity(intent);
+        }
+    };
+}
 
 
 
