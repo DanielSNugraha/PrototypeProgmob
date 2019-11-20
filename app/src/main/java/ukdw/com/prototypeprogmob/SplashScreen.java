@@ -14,7 +14,7 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
-        Splassh = (TextView) findViewById(R.id.screensplassh);
+        Splassh = (TextView) findViewById(R.id.screensplash);
                 this.getSupportActionBar().hide();
 
         SharedPreferences prefs = SplashScreen.this.getSharedPreferences("prefs_file",MODE_PRIVATE);
@@ -22,10 +22,10 @@ public class SplashScreen extends AppCompatActivity {
         if (statusLogin != null){
             if (statusLogin .equals("Admin"))
             {
-                Intent intent = new Intent(SplasshScreen.this, HomeScreenAdmin.class) ;
+                Intent intent = new Intent(SplashScreen.this, HomeScreenAdmin.class) ;
                 startActivity(intent);
             }else if (statusLogin .equals("User") ){
-                Intent intent = new Intent( SplasshScreen.this,HomeScreenMahasiswa.class);
+                Intent intent = new Intent(SplashScreen.this,HomeScreenMahasiswa.class);
                 startActivity(intent);
             }
         }else{
