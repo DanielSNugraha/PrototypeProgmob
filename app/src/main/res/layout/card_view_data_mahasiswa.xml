@@ -29,7 +29,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/txt_nim"
+            android:id="@+id/txt_nidn"
             android:layout_width="292dp"
             android:layout_height="22dp"
             android:layout_marginStart="8dp"
@@ -54,7 +54,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.841"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_nim"
+            app:layout_constraintTop_toBottomOf="@+id/txt_nidn"
             app:layout_constraintVertical_bias="0.091" />
 
         <TextView
@@ -78,7 +78,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/txt_nim"
+            app:layout_constraintEnd_toStartOf="@+id/txt_nidn"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.333"

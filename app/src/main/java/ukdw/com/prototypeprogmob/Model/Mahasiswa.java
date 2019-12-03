@@ -3,42 +3,55 @@ package ukdw.com.prototypeprogmob.Model;
 public class Mahasiswa {
     private String nim;
     private String nama;
-    private String email;
-    private String alamat;
+    private String emailMhs;
+    private String alamatMhs;
+    private int fotoMhs;
 
-    public Mahasiswa(String email, String alamat, String nim, String nama) {
-        this.nama = nama;
+    public Mahasiswa(String nim, String nama, String emailMhs, String alamatMhs, int fotoMhs) {
         this.nim = nim;
-        this.email = email;
-        this.alamat = alamat;
+        this.nama = nama;
+        this.emailMhs = emailMhs;
+        this.alamatMhs = alamatMhs;
+        this.fotoMhs = fotoMhs;
+    }
+
+    public String getNim() {
+        return nim;
+    }
+
+    public void setNim(String nim) {
+        this.nim = nim;
     }
 
     public String getNama() {
         return nama;
     }
 
-    public void setNama(String nama) { this.nama = nama;}
-
-
-    public String getNim() {
-        return nim;
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 
-    public void setNim(String nim) { this.nim = nim;}
-
-
-    public String getEmail() {
-        return email;
+    public String getEmailMhs() {
+        return emailMhs;
     }
 
-    public void setEmail(String email) { this.email = email;}
-
-
-    public String getAlamat() {
-        return alamat;
+    public void setEmailMhs(String emailMhs) {
+        this.emailMhs = emailMhs;
     }
 
-    public void getAlamat(String alamat) {
-        this.alamat = alamat;
+    public String getAlamatMhs() {
+        return alamatMhs;
+    }
+
+    public void setAlamatMhs(String alamatMhs) {
+        this.alamatMhs = alamatMhs;
+    }
+
+    public int getFotoMhs() {
+        return fotoMhs;
+    }
+
+    public void setFotoMhs(int fotoMhs) {
+        this.fotoMhs = fotoMhs;
     }
 }

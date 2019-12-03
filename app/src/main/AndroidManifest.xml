@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ukdw.com.prototypeprogmob">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -12,8 +12,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".EditDosen"></activity>
+        <activity android:name=".CreateMhs" />
+        <activity android:name=".CreateMatkul" />
+        <activity android:name=".CreateKrs" />
+        <activity android:name=".CreateDosen" />
+        <activity android:name=".RecyclerViewDaftarMhs" />
+        <activity android:name=".RecyclerViewDaftarMatkul" />
+        <activity android:name=".RecyclerViewDaftarKrs" />
+        <activity android:name=".RecyclerViewDaftarDosen" />
+        <activity android:name=".RecyclerViewDataDosen" />
         <activity android:name=".SplashScreen" />
-        <activity android:name=".RecylerViewMhsActivity" />
         <activity android:name=".HomeScreenAdmin" />
         <activity android:name=".HomeScreenMahasiswa" />
         <activity android:name=".InsertUpdateDataMatkul" />
