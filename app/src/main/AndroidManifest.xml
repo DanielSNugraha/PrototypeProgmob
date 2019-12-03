@@ -21,7 +21,6 @@
         <activity android:name=".RecyclerViewDaftarMatkul" />
         <activity android:name=".RecyclerViewDaftarKrs" />
         <activity android:name=".RecyclerViewDaftarDosen" />
-        <activity android:name=".RecyclerViewDataDosen" />
         <activity android:name=".SplashScreen" />
         <activity android:name=".HomeScreenAdmin" />
         <activity android:name=".HomeScreenMahasiswa" />
